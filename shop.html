@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Trading Shoes</title>
+    <link rel="stylesheet" href="shop.css">
+    <link rel="icon" href="logo.jpg">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Urban Trading Shoes</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About Us</a></li>
+                <li><a href="shop.html">Shop Now</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="index.html#faqs">FAQs</a></li>
+            </ul>
+        </nav>
+        <a href="index.html#contact" class="cta-button">Contact Us</a>
+    </header>`  
+
+    <!-- Shop Section -->
+    <section id="shop">
+        <div class="container">
+            <h1>Our Shoes Collection</h1>
+            <div class="filters">
+                <select id="filter-category">
+                    <option value="all">All Categories</option>
+                    <option value="sneakers">Air Force</option>
+                    <option value="loafers">All Jordan</option>
+                    <option value="running">All sport Shoes</option>
+                </select>
+                <select id="filter-price">
+                    <option value="all">All Prices</option>
+                    <option value="under-100">Under Frw20,000</option>
+                    <option value="100-200">Frw20,000 - Frw30,000</option>
+                    <option value="over-200">Over Frw50,000</option>
+                </select>
+            </div>
+            <div class="product-grid" id="product-grid">
+                <!-- Dynamically filled with JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Modal -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modal-img" src="shoe1.jpg" alt="Product Image">
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <p id="modal-price"></p>
+            <button class="cta-button">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About Us</a>
+            <a href="shop.html">Shop Now</a>
+            <a href="index.html#contact">Contact</a>
+            <a href="index.html#privacy">Privacy Policy</a>
+        </div>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+        <p>&copy; 2024 ShoeTrade</p>
+    </footer>
+
+    <script src="shop.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Trading Shoes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.jpg">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Urban Trading Shoes</div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#featured">Featured Shoes</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+        <a href="#contact" class="cta-button">Get Started</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Find Your Perfect Pair</h1>
+            <p>Discover the best deals on the latest shoes.</p>
+            <a href="shop.html" class="cta-button">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Search Functionality -->
+    <section id="search">
+        <div class="container">
+            <h1>Search for Shoes</h1>
+            <input type="text" id="search-bar" placeholder="Search for shoes...">
+            <div class="product-grid" id="product-grid">
+                <!-- Dynamically filled with JavaScript -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Featured Products -->
+    
+    <section id="featured">
+        <h2>Featured Shoes</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="shoe1.jpg" alt="Shoe 1">
+                <h3>Jordan 11 Quality 1</h3>
+                <p>Frw30,000</p>
+                <a href="shop.html" class="cta-button">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="shoe2.jpg" alt="Shoe 2">
+                <h3>Air Force 1 Quality 1</h3>
+                <p>Frw30,000</p>
+                <a href="shop.html" class="cta-button">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="shoe3.jpg" alt="Shoe 3">
+                <h3>Air Force 1 Quality 1</h3>
+                <p>Frw35,000</p>
+                <a href="shop.html" class="cta-button">Buy Now</a>
+            </div>
+            <div class="product-card">
+                <img src="shoe4.jpg" alt="Shoe 3">
+                <h3>Air Force 1 Quality 1</h3>
+                <p>Frw35,000</p>
+                <a href="shop.html" class="cta-button">Buy Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="about">
+        <h2>Why Choose Us</h2>
+        <div class="benefits">
+            <div class="benefit">
+                <img src="quality-icon.png" alt="Quality">
+                <h3>High Quality</h3>
+            </div>
+            <div class="benefit">
+                <img src="shipping-icon.jpg" alt="Shipping">
+                <h3>Fast Shipping</h3>
+            </div>
+            <div class="benefit">
+                <img src="support-icon.png" alt="Support">
+                <h3>24/7 Support</h3>
+            </div>
+            <div class="benefit">
+                <img src="return-icon.png" alt="Returns">
+                <h3>Easy Returns</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial">
+                <p>"Great selection and fast delivery!" - Urban Pac</p>
+            </div>
+            <div class="testimonial">
+                <p>"I love the variety of styles available." - Gentil Mayor</p>
+            </div>
+            <div class="testimonial">
+                <p>"Excellent customer service." - Cyusa Stessy</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+        <div class="contact-details">
+            <p>Email: byiringirourban20@gmail.com</p>
+            <p>Phone: (+250) 788-854-243</p>
+            <div class="map">
+                <!-- Embedded map -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="#hero">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#featured">Featured Shoes</a>
+            <a href="#contact">Contact</a>
+            <a href="privacy.html">Privacy Policy</a>
+        </div>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+        <p>&copy; 2024 ShoeTrade</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
